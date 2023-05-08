@@ -4,7 +4,10 @@ function Header (){
     return(
         <header>
             <div className="Container">
-                <div classname="Logo">098ytfvbnm,</div>
+                <div className="Logo"></div>
+                <div>
+                    <button className="conta">Conta</button>
+                </div>
             </div>
 
         </header>

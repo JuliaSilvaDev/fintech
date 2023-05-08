@@ -10,3 +10,26 @@ header{
     background: rgba(0, 0, 0, 0.42);
     z-index: 1;
 }
+
+.Logo {
+    position: relative;
+    width: 14%;
+    top: 5px;
+    left: 9px;
+    height: 50px;
+    background: url(../Imagens/logo.png);
+    background-size: cover;
+}
+
+.conta {
+    position: relative;
+    width: 6%;
+    left: 91%;
+    top: -29px;
+    height: 35px;
+    background: linear-gradient(109.52deg, #1E1958 24.27%, #AC5E92 96.8%);
+    color: #fff;
+    font-family: pop;
+}
+
+

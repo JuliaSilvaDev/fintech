@@ -1,5 +1,6 @@
 import Header from './jsx/Header';
 import Experiencia from './jsx/Experiencia';
+import Cartao from './jsx/Cartao';
 import './App.css';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Header />
       <Experiencia />
+      <Cartao />
     </div>
   );
 }
