@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    top: -70px;
+    height: 700px;
+    background-color: rgb(0, 0, 0);
+}
+
+.Esquerdo {
+    width: 45%;
+    position: relative;
+    z-index: -1;
+    height: 600px;
+    background: url(../Imagens/arco\ esquerdo.png);
+    background-size: cover;
+    display: flex;
+    float: left;
+}
+
+.Direito {
+    position: relative;
+    width: 59%;
+    height: 520px;
+    left: 41%;
+    background: url(../Imagens/arco\ direito.png);
+    background-size: cover;
+}
+
+.Aprimorar {
+    position: relative;
+    width: 55%;
+    height: 170px;
+    left: 370px;
+    top: -300px;
+}
+
+.Aprimorar p {
+    position: relative;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    top: -90px;
+    font-style:normal;
+    font-size: 65px;
+}
