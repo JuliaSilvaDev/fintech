@@ -2,7 +2,7 @@ import style from "../Components/Cartao.Module.css"
 
 function Cartao (){
     return(
-        <section>
+        <section className="usuario">
             <div className="Container1">
             <div className="roxo">
                 <div className="um"></div>

@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.usuario {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background-color: rgb(0, 0, 0);
+}
+
+.Container1 {
+    position: relative;
+    width: 100%;
+    top: 50px;
+    height: 250px;
+}
+
+.roxo {
+    position: relative;
+    width: 23%;
+    height: 230px;
+    background: linear-gradient(179.91deg, #301769 -5.99%, #301769 66.22%);
+    opacity: 0.86;
+    box-shadow: inset 0px 4px 36px 26px rgba(0, 0, 0, 0.29);
+    backdrop-filter: blur(1777px);
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    float: left;
+}
+
+.um {
+    position: relative;
+    width: 100%;
+    height: 230px;
+    background: url(../Imagens/roxo.png);
+    background-size: cover;
+}
+
+.verde {
+    position: relative;
+    width: 24%;
+    height: 230px;
+    left: 1.5%;
+    background: linear-gradient(179.88deg, #066966 1.71%, #066966 44.79%);
+    box-shadow: inset 0px -13px 24px rgba(0, 0, 0, 0.71);
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    float: left;
+}
+
+.dois {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    left: -31px;
+    top: 10px;
+    background: url(../Imagens/verde.png);
+    background-size: cover;
+}
+
+.lilas {
+    position: relative;
+    width: 24%;
+    height: 230px;
+    left: 3.3%;
+    background: linear-gradient(180.14deg, #411567 0.48%, #7F438B 92.88%);
+    opacity: 0.88;
+    box-shadow: inset 0px -19px 46px rgba(0, 0, 0, 0.76);
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    float: left;
+}
+
+.tres {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    top: 10px;
+    background: url(../Imagens/preto.png);
+    background-size: cover;
+}
+
+.rosa {
+    position: relative;
+    width: 24%;
+    height: 230px;
+    left: 76%;
+    background: linear-gradient(182.18deg, #884678 18.35%, #BF6CA0 57.04%);
+    box-shadow: inset 0px -18px 28px rgba(0, 0, 0, 0.58);
+    border-radius: 20px 20px 0px 0px;
+}
+
+.quatro {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    top: 10px;
+    background: url(../Imagens/rosa.png);
+    background-size: cover;
+}
