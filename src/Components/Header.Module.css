@@ -30,6 +30,7 @@ header{
     background: linear-gradient(109.52deg, #1E1958 24.27%, #AC5E92 96.8%);
     color: #fff;
     transition: -3.2s;
+    cursor: pointer;
     font-family: pop;
 }
 
@@ -37,8 +38,10 @@ header{
     position: relative;
     cursor: pointer;
     transition: 3.2s;
+    z-index: 32345;
     background: linear-gradient(109.52deg, #282175 24.27%, #be66a1 96.8%);
 }
+
 
 
 

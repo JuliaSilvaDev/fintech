@@ -2,6 +2,7 @@ import Header from './jsx/Header';
 import Experiencia from './jsx/Experiencia';
 import Cartao from './jsx/Cartao';
 import Novidades from './jsx/Novidades';
+import Celular from './jsx/Celular'
 import Voce from './jsx/Voce'
 import './App.css';
 
@@ -13,6 +14,7 @@ function App() {
       <Cartao />
       <Novidades />
       <Voce />
+      <Celular />
     </div>
   );
 }

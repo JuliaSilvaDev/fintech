@@ -7,6 +7,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    height: auto;
 }
+
+.App {
+    position: relative;
+    z-index: -0987654;
+    background-color: chartreuse;
+}
+
 

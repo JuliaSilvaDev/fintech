@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-section {
+.container3{
     width: 100%;
     position: relative;
     z-index: -1;
@@ -31,7 +31,7 @@ section {
 .Direito {
     position: relative;
     width: 60%;
-    height: 520px;
+    height: 530px;
     left: 40%;
     background: url(../Imagens/arco\ direito.png);
     background-size: cover;
@@ -64,8 +64,9 @@ section {
     cursor: pointer;
     text-align: center;
     border-radius: 50px;
-    background-color: #D2CFE1;
+    background-color: #d2cfe1;
 }
+
 
 .Criar {
     position: relative;

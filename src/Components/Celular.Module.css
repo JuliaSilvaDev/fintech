@@ -1,0 +1,56 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.celular {
+    position: relative;
+    width: 100%;
+    height: 650px;
+    top: -70px;
+    background-color: #f7f7f7;
+}
+
+.Centro1 {
+    position: relative;
+    width: 25%;
+    height: 600px;
+    background: url(../Imagens/Celular.png);
+    background-size: cover;
+    left: 35%;
+}
+
+
+.esquerda2 {
+    position: relative;
+    width: 30%;
+    left: 80px;
+    text-align: center;
+}
+.esquerda2 span{
+    position: relative;
+    color: black;
+    top: -450px;
+    width: 30%;
+    font-family: pop;
+    font-size: 55px;
+}
+
+.direita2 {
+    position: relative;
+    width: 30%;
+    left: 63%;
+    top: -690px;
+}
+
+.direita2 p{
+    position: relative;
+    color: black;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    font-family: pop;
+    top: 30px;
+    font-size: 55px;
+}

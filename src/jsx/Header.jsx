@@ -7,6 +7,7 @@ function Header (){
                 <div className="Logo"></div>
                 <div>
                     <button className="conta">Conta</button>
+                    
                 </div>
             </div>
 
