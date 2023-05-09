@@ -8,7 +8,7 @@ header{
     width: 100%;
     height: 70px;
     background: rgba(0, 0, 0, 0.42);
-    z-index: 1;
+    z-index: 123;
 }
 
 .Logo {

@@ -11,16 +11,15 @@
 .container3{
     width: 100%;
     position: relative;
-    z-index: -1;
     top: -70px;
     height: 700px;
+    z-index: -876;
     background-color: rgb(0, 0, 0);
 }
 
 .Esquerdo {
     width: 43%;
     position: relative;
-    z-index: -1;
     height: 520px;
     background: url(../Imagens/arco\ esquerdo.png);
     background-size: cover;
@@ -66,7 +65,6 @@
     border-radius: 50px;
     background-color: #d2cfe1;
 }
-
 
 .Criar {
     position: relative;

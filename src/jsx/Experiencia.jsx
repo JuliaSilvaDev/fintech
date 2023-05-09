@@ -6,7 +6,7 @@ function Experiencia (){
             <div className="Esquerdo"></div>
             <div className="Direito"></div>
             <div className="Aprimorar">
-                <p>Aprimore sua experiência bancária com a nossa tecnologia.</p>
+                <p className="novo">Aprimore sua experiência bancária com a nossa tecnologia.</p>
             </div>
             <div className="Cor">
                 <button className="Abrir">ABRIR MINHA CONTA</button>

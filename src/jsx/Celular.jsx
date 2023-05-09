@@ -10,6 +10,10 @@ function Celular (){
             <div className="direita2">
                 <p>Com total segurança </p>
             </div>
+
+            <div className="raio">
+                <span>Abrir conta</span>
+            </div>
             
         </section>
 

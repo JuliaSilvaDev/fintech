@@ -27,7 +27,14 @@
     color: #fff;
     font-size: 52px;
     left: 60px;
+    transition: 1.2s;
     text-align: center;
+}
+
+.meio p:hover {
+    transition: 1.2s;
+    cursor: context-menu;
+    color: #089C98;
 }
 
 .numero1 {
@@ -40,6 +47,14 @@
     box-shadow: 14px -16px 221px rgba(255, 255, 255, 0.18);
     backdrop-filter: blur(20px);
     border-radius: 20px;
+    transition: 1.2s;
+}
+
+.numero1:hover {
+    box-shadow: 14px -16px 221px rgba(255, 255, 255, 0.274);
+    backdrop-filter: blur(20px);
+    cursor: pointer;
+    transition: 1.2s;
 }
 
 .numero1 p {
@@ -64,6 +79,12 @@
     left: 20px;
     top: 5px;
     color: #089C98;
+    transition: 1.2s;
+}
+
+.numero1 h5:hover {
+    color: #10fff7;
+    transition: 1.2s;
 }
 
 .voce1 {
@@ -86,8 +107,15 @@
     box-shadow: 14px -16px 221px rgba(255, 255, 255, 0.18);
     backdrop-filter: blur(20px);
     border-radius: 20px;
+    transition: 1.2s;
 }
 
+.numero2:hover {
+    box-shadow: 14px -16px 221px rgba(255, 255, 255, 0.274);
+    backdrop-filter: blur(20px);
+    cursor: pointer;
+    transition: 1.2s;
+}
 .numero2 p {
     position: relative;
     font-family: pop;
@@ -110,6 +138,12 @@
     left: 20px;
     top: 35px;
     color: #089C98;
+    transition: 1.2s;
+}
+
+.numero2 h5:hover {
+    color: #10fff7;
+    transition: 1.2s;
 }
 
 .empresa2 {
@@ -132,6 +166,14 @@
     box-shadow: 14px -16px 221px rgba(250, 250, 250, 0.233);
     backdrop-filter: blur(20px);
     border-radius: 20px;
+    transition: 1.2s;
+}
+
+.numero3:hover {
+    box-shadow: 14px -16px 221px rgba(255, 255, 255, 0.322);
+    backdrop-filter: blur(20px);
+    cursor: pointer;
+    transition: 1.2s;
 }
 
 .numero3 p {
@@ -155,8 +197,16 @@
     font-size: 12px;
     left: 20px;
     top: 10px;
+    transition: 1.2s;
     color: #089C98;
 }
+
+.numero3 h5:hover {
+    color: #10fff7;
+    transition: 1.2s;
+}
+
+
 
 .MEI {
     position: relative;
@@ -166,4 +216,13 @@
     left: px;
     background: url(../Imagens/MEI.png);
     background-size: cover;
+}
+
+.botao {
+    position: relative;
+    width: 20%;
+    height: 90px;
+    top: -800px;
+    background-color: #089C98;
+
 }

@@ -9,7 +9,7 @@
     width: 100%;
     height: 650px;
     top: -70px;
-    background-color: #f7f7f7;
+    background: linear-gradient(180deg, #F6F6F6 0%, #ffffff 100%);
 }
 
 .Centro1 {
@@ -21,20 +21,26 @@
     left: 35%;
 }
 
-
 .esquerda2 {
     position: relative;
     width: 30%;
     left: 80px;
+    top: -450px;
     text-align: center;
 }
 .esquerda2 span{
     position: relative;
+    transition:1.2s;
     color: black;
-    top: -450px;
     width: 30%;
     font-family: pop;
     font-size: 55px;
+}
+
+.esquerda2 span:hover {
+    color: rgba(212, 47, 216, 0.78);
+    transition: 1.2s;
+    cursor: context-menu;
 }
 
 .direita2 {
@@ -52,5 +58,37 @@
     text-align: center;
     font-family: pop;
     top: 30px;
+    transition: 1.2s;
     font-size: 55px;
+}
+
+.direita2 p:hover {
+    color: #632BE1;
+    transition: 1.2s;
+    cursor: context-menu;
+}
+
+.raio {
+    position: relative;
+    width: 16%;
+    height: 50px;
+    border: 4px solid #066966;
+    border-radius: 50px;
+    top: -570px;
+    text-align: center;
+    left: 42.8%;
+    transition: 1.2s;
+}
+
+.raio:hover {
+    background:  #078580;
+transition: 1.2s;
+cursor: context-menu;
+}
+
+.raio span {
+    position: relative;
+    top: 8px;
+    font-family: pop;
+    font-size: 17px;
 }
