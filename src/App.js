@@ -4,6 +4,7 @@ import Cartao from './jsx/Cartao';
 import Novidades from './jsx/Novidades';
 import Celular from './jsx/Celular';
 import Beneficios from './jsx/Beneficios';
+import Footer from './jsx/Footer'
 import Tempo from './jsx/Tempo';
 import Voce from './jsx/Voce';
 import './App.css';
@@ -19,6 +20,7 @@ function App() {
       <Celular />
       <Beneficios />
       <Tempo />
+      <Footer />
     </div>
   );
 }
